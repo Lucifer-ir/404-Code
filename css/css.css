@@ -1,0 +1,86 @@
+*{
+    font-family: vazir;
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(35deg, #16181a,#111314);
+    margin: 0px;
+}
+@font-face {
+    font-family: 'vazir';
+    src: url('../font/Vazir-Bold-FD.woff');
+    src: url('../font/Vazir-Bold-FD.woff2') format('woff2'),
+         url('FileName.woff') format('woff'),
+         url('FileName.ttf') format('truetype'),
+         url('FileName.svg#FontName') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+p{
+    font-family: vazir;
+    font-size:medium;
+    color: #6b6b6b;
+}
+.hader1{
+   width: 50%;
+   border-radius: 200px;
+   box-shadow: 5px 5px 40px #4b4b4b;
+   justify-items: center;
+   margin-top: 5px;
+    
+}
+h1.name{
+    width: 100%;
+    border: 1.5px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    box-sizing: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    text-shadow:;
+    background-color: #6b6b6b;
+    color: #4384ce;
+    text-shadow:5px 2px 70px #16181a;
+}
+
+.about1{
+    text-align: justify;
+    width: 50%;
+    text-align: center;
+}
+.a11{
+    display: flex;
+    justify-content: center;
+}
+.mahart1{
+    direction: ltr;
+}
+hr{
+    border: 2px #6b6b6b solid ;
+    box-shadow: 11px 11px 70% #fff;
+}
+h1{
+    color: #fff;
+}
+.about{
+    color: #e2e2e2;
+}
+.mahart{
+    color: #e2e2e2;
+}
+.nemone{
+    color: #e2e2e2;
+}
+.phone{
+    background-color: #4b4b4b;
+}
+.phone1{
+    margin-top: 10px;
+    color: #111314;
+}
+a{
+    text-decoration: none;
+    color: #868686;
+    
+}
